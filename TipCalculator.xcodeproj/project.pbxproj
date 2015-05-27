@@ -14,6 +14,7 @@
 		00CEBA4F1AE1E4BA008C5A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBA4E1AE1E4BA008C5A3C /* Images.xcassets */; };
 		00CEBA521AE1E4BA008C5A3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBA501AE1E4BA008C5A3C /* LaunchScreen.xib */; };
 		00CEBA5E1AE1E4BB008C5A3C /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBA5D1AE1E4BB008C5A3C /* TipCalculatorTests.swift */; };
+		00CEBA681AE1F56E008C5A3C /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBA671AE1F56E008C5A3C /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		00CEBA571AE1E4BB008C5A3C /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CEBA5C1AE1E4BB008C5A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00CEBA5D1AE1E4BB008C5A3C /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		00CEBA671AE1F56E008C5A3C /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		00CEBA691AE1F5D6008C5A3C /* SwiftTutorial.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTutorial.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				00CEBA501AE1E4BA008C5A3C /* LaunchScreen.xib */,
 				00CEBA461AE1E4BA008C5A3C /* TipCalculator.xcdatamodeld */,
 				00CEBA421AE1E4BA008C5A3C /* Supporting Files */,
+				00CEBA671AE1F56E008C5A3C /* TipCalculatorModel.swift */,
+				00CEBA691AE1F5D6008C5A3C /* SwiftTutorial.playground */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				00CEBA4A1AE1E4BA008C5A3C /* ViewController.swift in Sources */,
 				00CEBA451AE1E4BA008C5A3C /* AppDelegate.swift in Sources */,
 				00CEBA481AE1E4BA008C5A3C /* TipCalculator.xcdatamodeld in Sources */,
+				00CEBA681AE1F56E008C5A3C /* TipCalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
